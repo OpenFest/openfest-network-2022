@@ -1,4 +1,5 @@
 /*
+ * vim: set syntax=javascript ts=2 sw=2 sts=2 et :
  * JS script to handle incomming github webhooks
  */
 
@@ -178,13 +179,12 @@ const githubEvents = {
 
     var atts = []
     for ( var i = 0 ;  i < commits.length ; i++ ) {
-	    var attachment = {
-	      author_icon: 'https://cloud.githubusercontent.com/assets/51996/13893698/c047133c-ed2e-11e5-9233-13622bcb9b7b.png',
-	      fields: []
+      var attachment = {
+        author_icon: 'https://cloud.githubusercontent.com/assets/51996/13893698/c047133c-ed2e-11e5-9233-13622bcb9b7b.png',
+        fields: []
 	    };
 
 	    attachment.author_name = commits[i].author.name;
-	    attachment.text = commits[i].message;
 	    attachment.title_link = commits[i].url;
 	    attachment.title = commits[i].message;
 	    atts.push(attachment);
@@ -193,11 +193,10 @@ const githubEvents = {
     return {
       content: {
         text: committer + ' pushed ' + commits.length + ' commit(s).',
-	attachments: atts
+        attachments: atts
       }
     };
   }
-
 };
 
 class Script {
