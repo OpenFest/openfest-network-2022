@@ -192,8 +192,8 @@ const githubEvents = {
 
     return {
       content: {
-        text: committer + ' pushed ' + commits.length + ' commits.',
-	attachments: [atts]
+        text: committer + ' pushed ' + commits.length + ' commit(s).',
+	attachments: atts
       }
     };
   }
