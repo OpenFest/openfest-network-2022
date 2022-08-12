@@ -170,7 +170,34 @@ const githubEvents = {
         text: 'Team ' + team + ' with permissions ' + permission + ' added!'
       }
     };
+  },
+
+  push(request) {
+    const committer = request.content.pusher.name;
+    const commits = request.content.commits;
+
+    var atts = []
+    for ( var i = 0 ;  i < commits.length ; i++ ) {
+	    var attachment = {
+	      author_icon: 'https://cloud.githubusercontent.com/assets/51996/13893698/c047133c-ed2e-11e5-9233-13622bcb9b7b.png',
+	      fields: []
+	    };
+
+	    attachment.author_name = commits[i].author.name;
+	    attachment.text = commits[i].message;
+	    attachment.title_link = commits[i].url;
+	    attachment.title = commits[i].message;
+	    atts.push(attachment);
+    }
+
+    return {
+      content: {
+        text: committer + ' pushed ' + commits.length + ' commits.',
+	attachments: [atts]
+      }
+    };
   }
+
 };
 
 class Script {
