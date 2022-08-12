@@ -159,6 +159,17 @@ const githubEvents = {
         attachments: [attachment]
       }
     };
+  },
+
+  team_add(request) {
+    const team = request.content.team.name;
+    const permission = request.content.team.permission;
+
+    return {
+      content: {
+        text: 'Team ' + team + ' with permissions ' + permission + ' added!'
+      }
+    };
   }
 };
 
