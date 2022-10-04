@@ -31,9 +31,9 @@ Gi1/0/27| 01.09A | eth0        | cambox-B
 Gi1/0/28| 01.05A | eth0        | cambox-C
 Gi1/0/29| 01.14A | eth0        | overflow
 Gi1/0/48|techpark| unknown     | techpark switch
-Gi1/0/49|unknown | gi0/49      | f0sw (MM fiber)
-Gi1/0/50|unknown | n/a         | ipacct (SM fiber)
-Te0/2   |        | enp1s0f4d1  | vin (MM fiber)
+Gi1/0/51|unknown | gi0/49      | f0sw (MM fiber)
+Gi1/0/52|unknown | n/a         | ipacct (SM fiber)
+Te0/1   |        | enp1s0f0    | vin (MM fiber)
 
 F0 switch ports + panel
 -----------------------
