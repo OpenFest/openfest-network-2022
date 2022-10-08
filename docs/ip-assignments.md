@@ -18,13 +18,12 @@ IP | Name | Notes
 ---|------|------
 .1 | vin | router/services
 .11 | coresw | CORE
+.15 | fl0sw | floor0 interconnecting switch
 .21 | vocsw-A | video team switch room A
 .22 | vocsw-B | video team switch room B
-.23 | vocsw-C | video team switch room C
-.24 | vocsw-D | video team switch room D
+.24 | ws-sw   | C3 - installfest workshop switch 
 .25 | receptionsw | Reception switch
 .26 | teamsw | switch for teamroom (unconfirmed)
-.27 | fl0sw | floor0 interconnecting switch
 .28 | nocsw | NOC
 .50 | ap-cf-f-l | ap conf floor left foaier
 .51 | ap-cf-f-r | ap conf floor right foaier
@@ -32,17 +31,16 @@ IP | Name | Notes
 .53 | ap-cf-a2  | ap room A back
 .54 | ap-cf-b1  | ap room B stage
 .55 | ap-cf-srv  | ap server room main floor
-.56 | ap-cf-c1  | ap room C stage
+.56 | ap-cf-c1  | ap room C zone C3
 .58 | ap-cf-ch   | ap conf floor chillout area
 .59 | ap-cf-qws  | ap conf floor quiet workshop area
 .60 | ap-ws-ws1  | ap workshop floor workshop area
 .61 | ap-ws-ws2  | ap workshop floor workshop area
-.62 | ap-ws-noc  | ap workshop floor NOC/team room
 .63 | ap-spare-1 | Spare AP#1
 .64 | ap-spare-2 | Spare AP#2
 .65 | ap-spare-3 | Spare AP#3
 
-### Video
+### Video WORK IN PROGRESS
 IP | Name | Notes
 ---|------|------
 .1 | vin |
