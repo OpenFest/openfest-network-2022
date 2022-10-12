@@ -10,14 +10,14 @@ Gi1/0/1 |        |             | DEBUG
 Gi1/0/2 |        |             | DEBUG/trunk
 Gi1/0/3 |        | onboard eth | vin
 Gi1/0/4 |        |             | DEBUG/ipacct
-Gi1/0/5 |        | WAN         | ap-cf-srv
-Gi1/0/6 | 01.06A | WAN         | ap-cf-f-l
-Gi1/0/7 | 01.10A | WAN         | ap-cf-f-r
-Gi1/0/8 | 01.09A | WAN         | ap-cf-b1
-Gi1/0/9 | 01.18A | WAN         | ap-cf-a1
-Gi1/0/10| 01.08A | WAN         | ap-cf-a2
-Gi1/0/11| 01.20A | WAN         | ap-cf-c1
-Gi1/0/12| unknown| WAN         | ap-cf-qws
+Gi1/0/25 |        | WAN         | ap-cf-srv
+Gi1/0/26 | 01.06A | WAN         | ap-cf-f-l
+Gi1/0/27 | 01.10A | WAN         | ap-cf-f-r
+Gi1/0/29 | 01.20A | WAN         | ap-cf-b
+Gi1/0/31 | 01.18A | WAN         | ap-cf-a1
+Gi1/0/28| 01.08A | WAN         | ap-cf-a2
+Gi1/0/33| D22 | WAN         | ap-cf-sc
+Gi1/0/30| 01.16A| WAN         | ap-cf-ws
 Gi1/0/17| 01.08B | Gi1/0/8     | reception-sw
 Gi1/0/18| unknown| Gi1/0/8     | team-sw
 Gi1/0/19| 01.19A | Gi1/0/8     | vocsw-A
@@ -40,19 +40,12 @@ F0 switch ports + panel
 
 port    | panel  | deviceport  | name
 --------|--------|-------------|-----------------
-Gi0/1   | 01.14A | Gi1/0/24    | nocsw
-Gi0/2   | 01.02A | WAN         | ap-ws-ws1  
-Gi0/3   | 01.06A | WAN         | ap-ws-ws2
-Gi0/11  | 01.01A |             | wired user
-Gi0/12  | 01.03A |             | wired user  
-Gi0/13  | 01.05A |             | wired user  
-Gi0/14  |unknown |             | wired user   
-Gi0/15  |unknown |             | wired user  
-Gi0/16  |unknown |             | wired user  
-Gi0/20  |unknown |             | ws overflow (uses AP port)
-Gi0/49  |unknown | Gi1/0/49    | uplink coresw (MM fiber)
+Gi0/8   | 01.14A | Gi1/0/24    | nocsw
+Gi0/1   | 01.02A | WAN         | ap-ws-ws1  
+Gi0/2   | 01.06A | WAN         | ap-ws-ws2
+Gi0/9  |unknown | Gi1/0/9    | uplink coresw (MM fiber)
 
-NOC switch
+NOC switch WiP
 ----------
 
 Port    |  Name 
