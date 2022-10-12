@@ -10,29 +10,22 @@ Gi1/0/1 |        |             | DEBUG
 Gi1/0/2 |        |             | DEBUG/trunk
 Gi1/0/3 |        | onboard eth | vin
 Gi1/0/4 |        |             | DEBUG/ipacct
-Gi1/0/25 |        | WAN         | ap-cf-srv
-Gi1/0/26 | 01.06A | WAN         | ap-cf-f-l
-Gi1/0/27 | 01.10A | WAN         | ap-cf-f-r
-Gi1/0/29 | 01.20A | WAN         | ap-cf-b
-Gi1/0/31 | 01.18A | WAN         | ap-cf-a1
-Gi1/0/28| 01.08A | WAN         | ap-cf-a2
-Gi1/0/33| D22 | WAN         | ap-cf-sc
-Gi1/0/30| 01.16A| WAN         | ap-cf-ws
 Gi1/0/17| 01.08B | Gi1/0/8     | reception-sw
-Gi1/0/18| unknown| Gi1/0/8     | team-sw
+Gi1/0/18| D24    | Gi1/0/8     | team-sw
 Gi1/0/19| 01.19A | Gi1/0/8     | vocsw-A
 Gi1/0/20| 01.16A | Gi1/0/8     | vocsw-B
-Gi1/0/21|  | Gi1/0/8     | 
-Gi1/0/22| 01.21A| Gi1/0/8     | ws-sw
-Gi1/0/24| 01.18B |             | presenter-A 
-Gi1/0/25| 01.17A |             | presenter-B
-Gi1/0/26| 01.20B |             | presenter-C
-Gi1/0/27| 01.09A | eth0        | cambox-B
-Gi1/0/28| 01.05A | eth0        | cambox-C
-Gi1/0/29| 01.14A | eth0        | overflow
+Gi1/0/22| 01.21A | Gi1/0/8     | wssw-cf
+Gi1/0/25|        | WAN         | ap-cf-srv
+Gi1/0/26| 01.06A | WAN         | ap-cf-f-l
+Gi1/0/27| 01.10A | WAN         | ap-cf-f-r
+Gi1/0/29| 01.20A | WAN         | ap-cf-b
+Gi1/0/28| 01.08A | WAN         | ap-cf-a2
+Gi1/0/30| 01.16A | WAN         | ap-cf-ws
+Gi1/0/31| 01.18A | WAN         | ap-cf-a1
+Gi1/0/33| D22    | WAN         | ap-cf-sc
 Gi1/0/48|techpark| unknown     | techpark switch
-Gi1/0/51|unknown | gi0/49      | f0sw (MM fiber)
-Gi1/0/52|unknown | n/a         | ipacct (SM fiber)
+Gi1/0/51|unknown | gi0/49      | f0sw (SM fiber)
+Gi1/0/52|unknown | n/a         | ipacct/gkc (MM fiber)
 Te0/1   |        | enp1s0f0    | vin (MM fiber)
 
 F0 switch ports + panel
