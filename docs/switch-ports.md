@@ -22,8 +22,8 @@ Gi1/0/17| 01.08B | Gi1/0/8     | reception-sw
 Gi1/0/18| unknown| Gi1/0/8     | team-sw
 Gi1/0/19| 01.19A | Gi1/0/8     | vocsw-A
 Gi1/0/20| 01.16A | Gi1/0/8     | vocsw-B
-Gi1/0/21| 01.21A | Gi1/0/8     | vocsw-C
-Gi1/0/22| unknown| Gi1/0/8     | vocsw-D
+Gi1/0/21|  | Gi1/0/8     | 
+Gi1/0/22| 01.21A| Gi1/0/8     | ws-sw
 Gi1/0/24| 01.18B |             | presenter-A 
 Gi1/0/25| 01.17A |             | presenter-B
 Gi1/0/26| 01.20B |             | presenter-C
